@@ -1,0 +1,10 @@
+[project]
+name = "agent-replay-time-machine"
+version = "0.1.0"
+description = "Deterministic counterfactual replay and checksum-chain validation for tool traces"
+requires-python = ">=3.11"
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+packages = ["replay_machine"]
